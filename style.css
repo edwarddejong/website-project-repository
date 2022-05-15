@@ -8,25 +8,57 @@ body {
   width: 350px;
 }
 
+nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #dog-main {
   border: 5px solid white;
   margin: 15px;
 } 
 
+.dog-walkies img {
+  float:left;
+  margin-right:20px;
+  vertical-align:middle;
+}
+span {
+  height: 450px;            
+  display: table-cell;
+  vertical-align: middle;
+  font-size: larger;
+}
+
 
 .column {
     float: left;
     width: 50%;
-  }
+}
   
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
-  } 
+} 
+
+/* .top-picks-parent {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-picks-child {
+      width: 400px;
+      height: 100px;
+}
+*/
 
 #container-syd{
-    width: 400px;
+    width: 450px;
+    height: 160px;
+    margin-top: 75px;
 }
 
 #floated-syd-text{
@@ -44,7 +76,10 @@ body {
 }
 
 #container-mcneilly{
-  width: 400px;
+  width: 450px;
+  height: 160px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #floated-mcneilly-text{
@@ -64,7 +99,8 @@ body {
 }
 
 #container-camperdown{
-  width: 400px;
+  width: 450px;
+  height: 160px;
 }
 
 #floated-camperdown-text{

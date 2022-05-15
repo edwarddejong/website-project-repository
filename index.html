@@ -13,26 +13,27 @@
     </header>
 
   <nav>
-    <a href="about.html">About</a> <a href="contact.html">Contact</a> <a href="products.html">Products</a>
+    <a href="about.html">About Us</a> <a href="dog-walking.html">Dog Walking Services</a> <a href="dog-sitting.html">Dog Minding Services</a>
   </nav>
 
   <main>
-
       <section>
-        <h1>Taking your pooch outdoors to a dog-friendly space is important, especially in inner-city areas with high-density dwellings where dogs don't have much space to exercise.</h1>
-        <figure>
-            <img src="images/Dog Walkies.png" alt="Dogs Frolicking in Grass" title="Doggies enjoying a walk!" id="dog-main">
-            <figcaption>
-                Bring your dogs out for some well-deserved exercise and fun at one of Sydney's dog parks.
-            </figcaption>
-        </figure>
+        <div style="height:50%;" class="dog-walkies">
+            <img src="images/Dog Walkies.png" alt="Dogs Frolicking in Grass" title="Doggies enjoying a walk!" id="dog-main" width="50%" height="50%">
+            <span>Taking your pooch outdoors to a dog-friendly space is important, especially in inner-city areas with high-density dwellings where dogs don't have much space to exercise.<br><br>Regular off-leash exercise in designated off-leash parks helps dogs relieve boredom and release pent-up energy. It may also reduce unwanted behaviour such as excessive barking. Outdoors exercise also benefits owners with dog parks bringing people together.<br><br>Sydney has become a city that loves its dogs. If you’re thinking about taking your dog out this weekend, or if you’re up for some dog watching, there are some great spots we can recommend that other dog owners love!</span>
+        </div>
       </section>
 
-      <article>
-        <p>Regular off-leash exercise in designated off-leash parks helps dogs relieve boredom and release pent-up energy. It may also reduce unwanted behaviour such as excessive barking. Outdoors exercise also benefits owners with dog parks bringing people together.</p>
-        <p>Sydney has become a city that loves its dogs. If you’re thinking about taking your dog out this weekend, or if you’re up for some dog watching, here are some great spots we can recommend.<br> Exercising regularly has benefits for both you and your dog. Our off-leash parks are perfect if you want to get outdoors with the furriest member of your family.</p>
-      </article>
+    <!--**Need to put this text somewhere...**
+      <p>Bring your dogs out for some well-deserved exercise and fun at one of Sydney's dog parks.</p>
+    -->
 
+    <!--**Deleted this because I couldn't get it working properly..**
+      <div class="top-picks-parent">
+        <div class="top-picks-child"><h2>Our top spots to take your pet in the Inner West:</h2></div>
+      </div>
+    -->
+    <br><br><br>
       <section id="map">
         <div class="row">
           <div class="column">
@@ -40,13 +41,12 @@
           </div>
           
         <div class="column">
-          <h2>Our top picks for your Inner West pooch</h2>
 
           <div id="container-syd">
             <div id="floated-syd-text">
               <img id="sydney-park" src="./images/content_sydney_park.jpg">
             </div>
-            <h3>1. Sydney Park, St. Peter's</h3>
+            <h3>1. Sydney Park,<br>St. Peter's</h3>
           </div> 
 
           <div id="container-mcneilly">
@@ -67,11 +67,11 @@
         
         <script src="script.js"></script>
         </div>
-        
+
       </section>
 
       <section id="mailing list">
-        <h3>To sign up to our latest news on the best spots to take your spooch, put in your details below and we'll add you to our monthly mailing list</h3>
+        <h3>To sign up to our latest news on the best spots to take your pooch (or your best mate), put in your details below and we'll add you to our monthly mailing list</h3>
         <form>
             <label for="fullname">Full Name</label>
             <input id="fullname" type='text' name="fullname" required, placeholder="Enter Name">
@@ -103,11 +103,12 @@
         Treato Town, NSW 2000
       </address>
     </div>
-
-    <details>
-      <summary>&copy; 2022 The Daily Walkies.</summary>
-      <p>All Rights Reserved.</p>
-    </details>
+    <div>
+      <details>
+        <summary>&copy; 2022 The Daily Walkies.</summary>
+        <p>All Rights Reserved.</p>
+      </details>
+    </div>
   </footer>
 
 </body>
