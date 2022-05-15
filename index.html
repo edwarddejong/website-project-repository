@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">  
   <head>
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
     <title>The Daily Walkies</title>
   </head>
   
 <body>
     <header>
-         <h1>The Most Exciting Adventures</h1>
+      <img src="./images/The Daily Walkies-logos_transparent.png" alt="Daily Walkies Logo" title="Daily Walkies logo" id="logo">
+         <h1>The Most Exciting Dogventures</h1>
          <h2>Memorable walks for your bestest buddies</h2>
     </header>
 
@@ -20,7 +21,7 @@
       <section>
         <h1>Taking your pooch outdoors to a dog-friendly space is important, especially in inner-city areas with high-density dwellings where dogs don't have much space to exercise.</h1>
         <figure>
-            <img src="images/Dog Walkies.png" alt="Dogs Frolicking in Grass" title="Doggies enjoying a walk!">
+            <img src="images/Dog Walkies.png" alt="Dogs Frolicking in Grass" title="Doggies enjoying a walk!" id="dog-main">
             <figcaption>
                 Bring your dogs out for some well-deserved exercise and fun at one of Sydney's dog parks.
             </figcaption>
@@ -32,12 +33,44 @@
         <p>Sydney has become a city that loves its dogs. If you’re thinking about taking your dog out this weekend, or if you’re up for some dog watching, here are some great spots we can recommend.<br> Exercising regularly has benefits for both you and your dog. Our off-leash parks are perfect if you want to get outdoors with the furriest member of your family.</p>
       </article>
 
-      <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d105948.28900847891!2d151.09107378092932!3d-33.918384153515774!3m2!1i1024!2i768!4f13.1!2m1!1sdog%20parks!5e0!3m2!1sen!2sau!4v1652582729232!5m2!1sen!2sau" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <section id="map">
+        <div class="row">
+          <div class="column">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d105948.28900847891!2d151.09107378092932!3d-33.918384153515774!3m2!1i1024!2i768!4f13.1!2m1!1sdog%20parks!5e0!3m2!1sen!2sau!4v1652582729232!5m2!1sen!2sau" width="700" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          
+        <div class="column">
+          <h2>Our top picks for your Inner West pooch</h2>
+
+          <div id="container-syd">
+            <div id="floated-syd-text">
+              <img id="sydney-park" src="./images/content_sydney_park.jpg">
+            </div>
+            <h3>1. Sydney Park, St. Peter's</h3>
+          </div> 
+
+          <div id="container-mcneilly">
+            <div id="floated-mcneilly-text">
+              <img id="mcneilly-park" src="./images/SQ McNeilly Pk 373A5438.jpg">
+            </div>
+            <h3>2. McNeilly Park, Marrickville</h3>
+          </div>
+          
+          <div id="container-camperdown">
+            <div id="floated-camperdown-text">
+              <img id="camperdown-park" src="./images/content_camperdown_memorial.jpg">
+            </div>
+            <h3>3. Camperdown Memorial Park, Camperdown</h3>
+          </div>
+
+        </div>
+        
         <script src="script.js"></script>
+        </div>
+        
       </section>
 
-      <section>
+      <section id="mailing list">
         <h3>To sign up to our latest news on the best spots to take your spooch, put in your details below and we'll add you to our monthly mailing list</h3>
         <form>
             <label for="fullname">Full Name</label>
@@ -53,21 +86,24 @@
 
   </main>
 
-  <footer>
-    <h3>Contact</h3>
-    <p>
-      email: <a href="mailto:info@thedailywalkies.com.au">info@thedailywalkies.com.au</a><br>
-      phone: +61 400 000 000
-    </p>
-    <h3>Correspondence</h3>
+  <footer id="foot">
+    <div>
+      <h3>Contact</h3>
+      <p>
+        email: <a href="mailto:info@thedailywalkies.com.au">info@thedailywalkies.com.au</a><br>
+        phone: +61 400 000 000
+      </p>
+    </div>
 
-    <address>
-      The Daily Walkies<br>
-      P.O.Box 1234<br>
-      Treato Town, NSW 2000
-    </address>
+    <div>
+      <h3>Correspondence</h3>
+      <address>
+        The Daily Walkies<br>
+        P.O.Box 1234<br>
+        Treato Town, NSW 2000
+      </address>
+    </div>
 
-    
     <details>
       <summary>&copy; 2022 The Daily Walkies.</summary>
       <p>All Rights Reserved.</p>

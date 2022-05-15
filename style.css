@@ -1,14 +1,111 @@
 body {
     background: rgb(241, 240, 216);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+#logo {
+  width: 350px;
+}
+
+#dog-main {
+  border: 5px solid white;
+  margin: 15px;
+} 
+
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+
+#container-syd{
+    width: 400px;
+}
+
+#floated-syd-text{
+    float: left;
+    width: 250px;
+}
+
+  #sydney-park {
+  position: relative;
+    width: 160px;
+    height: 160px;
+    top: -80px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+#container-mcneilly{
+  width: 400px;
+}
+
+#floated-mcneilly-text{
+  float: left;
+  width: 250px;
+}
+
+#mcneilly-park {
+  position: relative;
+    width: 160px;
+    height: 160px;
+    top: -80px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#container-camperdown{
+  width: 400px;
+}
+
+#floated-camperdown-text{
+  float: left;
+  width: 250px;
+}
+
+#camperdown-park {
+  position: relative;
+    width: 160px;
+    height: 160px;
+    top: -80px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+  
+#map {
+  margin: 50px;
+  position: relative;
+
 }
 
 form * {
-    display: block;
-    width: 80%;
+    text-align: center;
+    display: inline;
+    width: 15%;
     margin: 1em;
   }
   
-  #checkbox {
+#checkbox {
     display:inline;
-  
-  }
+    width: auto;
+}
+
+footer div{
+    float: left;
+    text-align: center;
+    width: 25%;
+    background-color: rgb(207, 194, 157);
+}
+
+footer {
+    text-align: center;
+}
